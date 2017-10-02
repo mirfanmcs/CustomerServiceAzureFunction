@@ -33,8 +33,8 @@ namespace CustomerServiceAzureFunction
         private static Customer GetCustomer(string id)
         {
 
-             string EndpointUrl = "https://testirf.documents.azure.com:443/";
-             string PrimaryKey = "Z8tFMEl6a2IfOevU9hy6euJj9Z4WsUJuJaAJlolGteo8FpCikLJFyNmQigSO2D1IBSYhJky6NkcsZyCB3bg2eg==";
+             string EndpointUrl = "<your endpoint URL>";
+             string PrimaryKey = "<your primary key>";
              string databaseName = "CustomerDb";
              string collectionName = "Customer";
 
